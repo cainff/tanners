@@ -759,9 +759,9 @@ input {
     border-top: 1px solid #b8a47e;
     position: absolute;
     top: 8px;
+    margin-left: -38px;
     width: 30px;
-    left: -7px;
-    visibility: visible;
+    visibility: hidden;
     transition: all 0.4s;
 
 }
@@ -772,16 +772,16 @@ input {
   content: "•"; 
   padding-left:4px;
   color: #b8a47e;
-  visibility: visible;
+  visibility: hidden;
   transition: all 0.4s;
 }
 
-#footer li:hover::after {
+#footer ul li:hover::after {
     visibility:visible;
     transition: all ease-in-out 0.4s;
 }
 
-#footer li:hover::before {
+#footer ul li:hover::before {
     visibility:visible;
     transition: all ease-in-out 0.4s;
 }
