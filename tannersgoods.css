@@ -1,0 +1,787 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/**Fonts
+
+font-family: 'PT Sans', sans-serif;
+
+font-family: 'Work Sans', sans-serif;
+
+font-family: 'Montserrat', sans-serif;
+
+
+**/
+
+
+/**Class**/
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    white-space: nowrap;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000406;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 53px;
+}
+
+.number_class {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #969696;
+}
+
+.navbar_text {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2%;
+}
+
+
+.price_class {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 97px;
+    font-weight: bold;
+    color: #000406;
+}
+
+.pclass {
+   font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: #a7a7a7;
+    white-space: pre-line;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
+.pclassbloc2 {
+    padding-left: 318px;
+
+}
+
+.gear {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #b8a47e;
+    padding-top: 20px;
+    padding-left: 129px;
+}
+
+.gearup {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #b8a47e;
+    padding-top: 20px;
+    padding-left: 110px;
+}
+
+.gearup::before {
+    content: "";
+    padding-right: 3px;
+    border-top: 2px solid #b8a47e;
+    position: absolute;
+    width: 25px;
+    left: 75px;
+    top: 83px;
+}
+
+
+.plastbloc {
+    font-family: 'Roboto', sans-serif;
+    font-size:12px;
+    white-space: pre-line;
+
+
+}
+
+.readmore {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000406;
+    text-transform: uppercase;
+}
+
+.foot_text {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #969696;
+}
+
+.daypack {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    white-space: pre-line;
+    text-shadow: 8px;
+    color: white;
+    letter-spacing: 20px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-shadow: 18px 5px 27px black;
+    padding-top: 1200px;
+    left: 372px;
+    z-index: 30;
+    position: absolute;
+}
+
+/**Structure of page**/
+
+.wrapper6 {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+}
+
+.wrapperlittlepics {
+    margin: 0 auto;
+    width: 95%;
+    height: 100%;
+}
+
+nav {
+    /** height: 309px; **/
+    width: 100%;
+    height: 100%;
+}
+
+#bloc1 {
+    height: 700px;
+    width: 100%;
+    background: url('bloc1/bag.png');
+    background-size: 66%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#bloc2 {
+    height: 425px;
+    background: url('bloc2/man_bag.png');
+    background-size: 66%;
+    background-repeat: no-repeat;
+}
+
+#bloc3 {
+    height: 410px;
+    width: 100%;
+}
+
+#bloc4 {
+    height: 426px;
+    width: 100%;
+    background: url(bloc4/wall_man.png);
+    background-repeat: no-repeat;
+    background-size: 66%;
+    background-position: top right;
+    background-color: #ededed;
+}
+
+#bloc5 {
+    height: 570px;
+    width: 100%;
+    background-color: #ededed;
+}
+
+#bloc6 {
+    height: 1674px;
+    width: 100%;
+}
+
+#footer {
+    height: 200px;
+    width: 100%;   
+    position: relative;
+    top: 82px;
+    background-color: #ededed;
+}
+
+
+/** Nav Bar **/
+
+.navbar {
+    display: inline;
+    position: relative;
+    z-index: 10;
+}
+
+.pad {
+    padding-right: 3%;
+}
+
+nav ul {
+    padding-top: 3%;
+    padding-left: 15%;
+}
+
+.white {
+    color: white;
+}
+
+#logo {
+    background-color: #b8a47e;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: -43px;
+    left: 10px;
+    position: absolute;
+}
+
+.tanners {
+    width: 75%;
+    margin-top: 41%;
+    margin-left: 10%;
+}
+
+nav li::before{
+    content: "";
+    padding-right: 3px;
+    border-top: 2px solid #b8a47e;
+    position: absolute;
+    top: 32px;
+    width: 30px;
+    left: -14px;
+    visibility: hidden;
+    transition: all 0.4s;
+}
+
+
+nav li::after {
+  content: "•"; 
+  padding-left:4px;
+  color: #b8a47e;
+  visibility: hidden;
+  transition: all 0.4s;
+}
+
+nav li:hover::after {
+    visibility:visible;
+    transition: all ease-in-out 0.4s;
+}
+
+nav li:hover::before {
+    visibility:visible;
+    transition: all ease-in-out 0.4s;
+}
+
+/**Bloc1**/
+.txt_bloc1 {
+    text-transform: uppercase;
+    position: relative;
+    top: 237px;
+    margin-left: 257px;
+}
+.font_bloc1 {
+    position: absolute;
+    top: 237px;
+    margin-left: 272px;
+}
+
+/**Bloc2**/
+.manbag {
+    position: absolute;
+    width: 66%;
+}
+.div_rect {
+      height: 230px;
+    width: 7OOpx;
+    border: solid 2px #b8a47e;
+    position: relative;
+    float: right;
+}
+#divbloc2 {
+    margin-right: 155px;
+    top: 23%;
+    float: right;
+    width: 630px;
+}
+#holebloc2 {
+    background-color: white;
+    top: 98%;
+    left: 65%;
+    z-index: 1;
+}
+.hole {
+    width: 120px;
+    height: 10px;
+    z-index: 25;
+    position: absolute;
+}
+
+.voyage {
+    position: absolute;
+    margin-top: 66px;
+    margin-left: -219px;
+    color: white;
+}
+
+.navy {
+        position: absolute;
+    color: white;
+    margin-top: 125px;
+    margin-left: 125px;
+    font-size: 14px;
+}
+
+.arrow_bloc{
+    position: absolute;
+    z-index: 20;
+    height: 28%;
+}
+
+.place_bloc2 {
+    top: 232px;
+    left: 465px;
+}
+
+/**Bloc3**/
+
+
+
+
+
+/**Bloc4**/
+
+.place_bloc4 {
+    top: 229px;
+    left: 155px;
+}
+
+#divbloc4 {
+    margin-right: 43%;
+    top: 23%;
+    z-index: 1;
+    width: 700px;
+}
+#holebloc4 {
+    background-color: #ededed;
+    top: 98%;
+    left: 15%;
+    z-index: 1;
+}
+
+.drifter {
+    position: absolute;
+    margin-top: 158px;
+    margin-left: 568px;
+    color: white;
+    z-index: 12;
+}
+
+.navy2 {
+     position: absolute;
+    color: white;
+    margin-top: 125px;
+    margin-left: 523px;
+    white-space: nowrap;
+    font-size: 14px;
+
+
+}
+
+#pbloc4 {
+     padding-left: 28px;
+    padding-top: 20px;
+
+}
+
+/**Bloc6**/
+.handbag {
+    position: absolute;
+    width: 700px;
+    padding-top: 4%;
+}
+.handbag_2 {
+    position: absolute;
+    width: 450px;
+    z-index: 10;
+    padding-top: 30%;
+    padding-left: 40%;
+}
+.manbag {
+    position: absolute;
+    padding-top: 55%;
+    padding-left: 8%;
+    width: 30%;
+}
+.lotofbags {
+    position: absolute;
+    padding-top: 69%;
+    padding-left: 33%;
+    width: 40%;
+    z-index: -23;
+}
+.pics {
+    height: 120px;
+    width: 120px;
+    padding-left: 2%;
+}
+#bag_pics {
+    position: relative;
+    float: left;
+    width: 99%;
+    padding-left: 0%;
+    overflow: hidden;
+     top: -17%;
+}
+#rectangle {
+    height: 430px;
+    width: 140px;
+    background-color: #e3dccd;
+    position: absolute;
+    margin-top: 1030px;
+    margin-left: 56%;
+    opacity: 0.4;
+}
+
+.wrapper6title {
+    margin: 0 auto;
+    width: 44%;
+    /* height: 100%; */
+    padding-top: 80px;
+    position: relative;
+} 
+
+.border_ {
+    width: 315px;
+    height: 17px;
+    background-color: #e1d9c9;
+    border: 1px solid #e1d9c9;
+    white-space: nowrap;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    color: #6e6555;
+    padding-left: 5px;
+    margin-left: 460px;
+    margin-top: 15px;
+    padding-top: 2px;
+}
+
+.before_txt {
+    border-top: 1px solid black;
+    height: 1px;
+    width: 120px;
+    position: absolute;
+    top: 147px;
+    left: 330px;
+
+}
+
+#first_number {
+    position: relative;
+    top: 80px;
+    z-index: 15;
+}
+
+#after_number {
+    position: relative;
+    top: 58px;
+    left: 70px;
+    z-index: 18;
+
+}
+
+#near_logo {
+    position: relative;
+    z-index: 25;
+    margin-right: 625px;
+    top: 275px;
+    float: right;
+}
+
+.before_txt_2 {
+    border-left: 1px solid black;
+    height: 135px;
+    width: 120px;
+    /* position: absolute; */
+    top: 147px;
+    left: 330px;
+
+}
+
+#near_nomad {
+    position: relative;
+    z-index: 25;
+    margin-right: 625px;
+    top: 106px;
+    float: right;
+}
+
+.before_txt_3 {
+   border-left: 2px solid black;
+    height: 60px;
+    width: 120px;
+    /* position: absolute; */
+    top: 147px;
+    left: 330px;
+}
+
+#under_img {
+    position: relative;
+    z-index: 25;
+    top: 425px;
+    left: 143px;
+    float: left;
+}
+
+.before_txt_4 {
+    border-left: 2px solid black;
+    height: 110px;
+    width: 1px;
+}
+
+#nomad_text{
+    position: absolute;
+    left: 875px;
+    padding-top: 185px;
+}
+
+#nomad_text p {
+    padding-top: 15px;
+    line-height: 17px;}
+
+#spruce_text{
+    position: absolute;
+    padding-top: 605px;
+    left: 279px;
+}
+
+#spruce_border {
+    width: 391px;
+    height: 22px;
+    background-color: #e1d9c9;
+    border: 1px solid #e1d9c9;
+    white-space: nowrap;
+    margin-top: -15px;
+}
+ 
+
+
+#spruce_text p {
+    padding-top: 15px;
+    line-height: 17px;
+    padding-left: 135px;
+}
+
+#field_text {
+    position: absolute;
+    padding-top: 830px;
+    left: 823px;
+}
+
+#field_text p {
+     padding-top: 15px;
+    line-height: 17px;
+}
+
+#second_number {
+    position: absolute;
+    padding-top: 765px;
+    padding-left: 512px;
+    z-index: 25;
+}
+
+#third_number {
+     position: absolute;
+    padding-top: 965px;
+    left: 1160px;
+    z-index: 25;
+
+}
+
+.logo_bloc6 {
+     position: absolute;
+    height: 12%;
+    padding-top: 335px;
+    left: 890px;
+    
+}
+
+/**footer**/
+
+.bloc {
+    width: 100%;
+}
+
+.footer_wrap {
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+}
+
+.white {
+    color: white;
+}
+
+#footer {
+    height: 200px;
+    background: #ededed;
+    position: relative;
+}
+
+.logo_foot {
+    width: 120px;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+#footer ul {
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+
+#footer li {
+    font-family: 'work sans', 'sans-serif';
+    font-weight: 800;
+    font-size: 12px;
+    display: inline-block;
+    padding: 0 30px;
+    color: #919191;
+}
+
+#footer .rs {
+    position: absolute;
+    top: 155px;
+    left: 355px;
+}
+
+#footer .rs li {
+    font-family: 'work sans', 'sans-serif';
+    font-weight: 100;
+    font-size: 12px;
+    display: inline-block;
+    padding: 0 30px;
+    color: #919191;
+}
+
+.copyright {
+    font-family: 'roboto', 'sans-serif';
+    font-weight: 100;
+    position: absolute;
+    top: 155px;
+    left: 70px;
+    font-size: 12px;
+    color: #4b4b4b;
+    text-transform: uppercase;
+}
+
+.adress {
+    font-family: 'roboto', 'sans-serif';
+    width: 125px;
+    font-size: 13px;
+    height: 70px;
+    position: absolute;
+    top: 30px;
+    left: 883px;
+    color: #858585;
+    line-height: 16px;
+}
+
+.mail {
+    width: 285px;
+    height: 70px;
+    position: absolute;
+    top: 30px;
+    left: 1098px;
+}
+
+.mail p {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.mail span {
+    font-family: 'roboto', 'sans-serif';
+    font-size: 13px;
+    color: #a8a8a8;
+}
+
+input {
+    position: absolute;
+    top: 119px;
+    left: 1098px;
+    width: 177px;
+    height: 22px;
+}
+
+.button {
+    position: absolute;
+    top: 119px;
+    left: 1284px;
+    background: black;
+    width: 40px;
+    height: 28px;
+}
+
+.button p {
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+}
+
+#footer ul li::before{
+    content: "";
+    padding-right: 3px;
+    border-top: 1px solid #b8a47e;
+    position: absolute;
+    top: 8px;
+    width: 30px;
+    left: -7px;
+    visibility: visible;
+    transition: all 0.4s;
+
+}
+
+
+
+#footer ul li::after {
+  content: "•"; 
+  padding-left:4px;
+  color: #b8a47e;
+  visibility: visible;
+  transition: all 0.4s;
+}
+
+#footer li:hover::after {
+    visibility:visible;
+    transition: all ease-in-out 0.4s;
+}
+
+#footer li:hover::before {
+    visibility:visible;
+    transition: all ease-in-out 0.4s;
+}
