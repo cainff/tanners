@@ -672,13 +672,13 @@ nav li:hover::before {
     color: #919191;
 }
 
-#footer .rs {
+#footer .social {
     position: absolute;
     top: 155px;
     left: 355px;
 }
 
-#footer .rs li {
+#footer .social li {
     font-family: 'work sans', 'sans-serif';
     font-weight: 100;
     font-size: 12px;
@@ -784,4 +784,12 @@ input {
 #footer ul li:hover::before {
     visibility:visible;
     transition: all ease-in-out 0.4s;
+}
+
+
+#footer ul li:hover {
+    color:black;
+    font-weight: bold;
+    transition: all ease-in-out 1s;
+
 }
