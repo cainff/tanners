@@ -308,6 +308,47 @@ nav li:hover::before {
     margin-left: 272px;
 }
 
+
+
+#nav_scroll {
+    display: block;
+    position: absolute;
+}
+
+.arrow_top {
+    position: relative;
+    float: left;
+    width: 1%;
+    top: 150px;
+    left: 80px;
+    
+}.arrow_bottom {
+     position: relative;
+    float: left;
+    width: 1%;
+    top: 200px;
+    left: 64px;
+}
+
+.trait_ {
+    position: relative;
+    float: left;
+    width: 1px;
+    top: 230px;
+    left: 55PX;
+
+}
+.number_ {
+    position: relative;
+    float:left;
+    width:2%;
+}
+.number_scroll {
+    position: relative;
+    float:left;
+    width:2%;
+}
+
 /**Bloc2**/
 .manbag {
     position: absolute;
@@ -789,7 +830,6 @@ input {
 
 #footer ul li:hover {
     color:black;
-    font-weight: bold;
     transition: all ease-in-out 1s;
 
 }
